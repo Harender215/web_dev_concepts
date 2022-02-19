@@ -26,3 +26,13 @@ console.log(isEven);
 // now let us see the declarative way of writing the same
 const isSquareEven = (x) =>((x*x) % 2 == 0? true: false)
 console.log(isSquareEven(4))
+
+//impure function
+//for same value of b we may get different value from the function if a varies
+
+let a = 4
+function addNum(b)
+{
+    console.log('the sum is', a+b)
+}
+addNum(2)
