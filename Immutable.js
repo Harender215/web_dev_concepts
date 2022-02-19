@@ -9,6 +9,7 @@ const person2 = person1
 console.log(person1)
 console.log(person2)
 
+person2.name = Object.assign({}, person1)
 person2.name = 'Steve'
-//now when we try to chage the name of person2, it is also get changed at the person1
-// so thats the problem our data it mutate
+
+//object.assign() takes two objects as argument, the first is empy object and the second is source object
