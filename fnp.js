@@ -36,3 +36,12 @@ function addNum(b)
     console.log('the sum is', a+b)
 }
 addNum(2)
+
+//Pure function
+//for same value of the argument the pure function always return the same answer
+//i.e the answer does not depens on any external factor like a in the perious case
+function addNum(a, b)
+{
+    console.log('The sum is ', a + b)
+}
+addNum(2, 3)
