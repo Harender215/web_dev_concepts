@@ -9,7 +9,7 @@ const person2 = person1
 console.log(person1)
 console.log(person2)
 
-person2.name = Object.assign({}, person1)
+person2.name = {...person1}
 person2.name = 'Steve'
 
-//object.assign() takes two objects as argument, the first is empy object and the second is source object
+//{...person1} spreading is used
