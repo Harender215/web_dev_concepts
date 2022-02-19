@@ -10,3 +10,13 @@ let newArr = myArr.map(function(x){
 
 console.log(myArr)
 console.log(newArr)
+
+//filter
+
+let filteredArr = myArr.filter(function(x){
+    return x%2 === 0
+})
+
+console.log(myArr)
+console.log(filteredArr)
+
