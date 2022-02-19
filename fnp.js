@@ -40,8 +40,16 @@ addNum(2)
 //Pure function
 //for same value of the argument the pure function always return the same answer
 //i.e the answer does not depens on any external factor like a in the perious case
-function addNum(a, b)
+function addNum1(a, b)
 {
-    console.log('The sum is ', a + b)
+    console.log('The sum is ', a + b)// we are addding console.log to get our answer so it a side effect
 }
-addNum(2, 3)
+addNum1(2, 3)
+
+
+function addNum2(a, b)
+{
+    return a+b; // we remove the die 
+}
+
+console.log(addNum2(2, 3))
