@@ -21,3 +21,8 @@ else{
     isEven=false
 }
 console.log(isEven);
+
+
+// now let us see the declarative way of writing the same
+const isSquareEven = (x) =>((x*x) % 2 == 0? true: false)
+console.log(isSquareEven(4))
