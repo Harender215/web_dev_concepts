@@ -20,3 +20,12 @@ let filteredArr = myArr.filter(function(x){
 console.log(myArr)
 console.log(filteredArr)
 
+//reduce
+
+let sumArr = myArr.reduce(function(accumulator, x){
+    return accumulator + x
+},0)
+
+console.log(sumArr)
+
+
